@@ -7,10 +7,10 @@ class Square():
     width = 0
     height = 0
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, width=None, height=None):
         """Define a constructor"""
-        for key, value in kwargs.items():
-            setattr(self, key, value)
+        self.width=width
+        self.height=height
 
     def area_of_my_square(self):
         """ Area of the square """
@@ -18,7 +18,7 @@ class Square():
 
     def PermiterOfMySquare(self):
         """Define a Perimter method"""
-        return (self.width * 4)
+        return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
         """Define str method"""

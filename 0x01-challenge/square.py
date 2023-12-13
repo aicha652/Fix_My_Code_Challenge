@@ -18,7 +18,7 @@ class Square():
 
     def PermiterOfMySquare(self):
         """Define a Perimter method"""
-        return (self.width * 2) + (self.height * 2)
+        return (self.width * 4)
 
     def __str__(self):
         """Define str method"""
@@ -27,7 +27,7 @@ class Square():
 
 if __name__ == "__main__":
 
-    s = Square(width=12, height=12)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())

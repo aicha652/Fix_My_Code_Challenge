@@ -2,7 +2,7 @@
 """Create a class Square"""
 
 
-class Square():
+class Square:
     """Define a class Square"""
     width = 0
     height = 0
